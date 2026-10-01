@@ -1,0 +1,128 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.section {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+.products-grid {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 200px;
+  background-color: #f9f9f9;
+}
+
+.category-badge {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 0;
+}
+
+.like-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.like-btn {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.like-btn:hover {
+  background-color: #d81b60;
+}
+
+.like-btn:active {
+  transform: scale(0.95);
+}
+
+.student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.student-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.student-name {
+  font-weight: 600;
+  width: 100px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.pass {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.fail {
+  background-color: #ffebee;
+  color: #c62828;
+}
